@@ -1,0 +1,177 @@
+nav{
+    background-color: black;
+    color:white;
+}
+
+.brand-logo{
+    margin-left:175px;
+}
+
+@media only screen and (max-width: 992px){
+    .brand-logo{
+        margin-left:0px !important;
+    }  
+
+    #secA{
+        padding-top: 50px;
+    }
+    #Image{
+        width:100% !important;
+    }
+}
+
+#Image{
+    width: 94%;
+}
+
+.card-content{
+    text-align: justify;
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.btn-large{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius:20px;
+    font-family: 'Asap', sans-serif;
+    letter-spacing: 4px;
+}
+
+.rightt{
+    margin-right: 100px;
+}
+
+.sectionC{
+    color:white;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding-top:50px !important;
+    padding-bottom:30px !important;
+}
+
+.sectionA {
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+    text-align: justify;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding-top:50px;
+    padding-bottom:30px;
+}
+  
+.output {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+.output h1 {
+    font-size: 30px;
+}
+  
+  /* Cursor Styling */
+  .cursor::after {
+    content: '';
+    display: inline-block;
+    margin-left: 3px;
+    background-color: white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  h1.cursor::after {
+    height: 24px;
+    width: 13px;
+  }
+  
+  p.cursor::after {
+    height: 13px;
+    width: 6px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    49% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+.checked {
+  color: orange;
+}
+  
+.parallax {
+    /* The image used */
+    background-image: url("img2.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.page-footer{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-top:0 !important;
+}
+
+.yt{
+    background-color: red;
+    padding: 30px !important;
+    border-radius: 10px;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.fb{
+    background-color: #3B5998;
+    padding: 30px !important;
+    border-radius: 10px;
+    color:white;
+}
+
+.text{
+    font-size: 40px;
+    font-family: 'Asap', sans-serif;
+    margin-bottom: 20px;
+    padding-top:50px !important;
+    padding-bottom:20px !important;
+}
+
+.sectionD{
+    background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 50px;
+}
+
+.abcd{
+    margin-right:15px;
+}
